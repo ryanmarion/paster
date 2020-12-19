@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Plaster</title>
+    <link rel="stylesheet" type="text/css" href="../static/plaster.css" @href="/static/plaster/plaster.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Plaster</h1>
+      <nav>
+        <a href="#" @href="plaster/edit">New</a>
+      </nav>
+    </header>
+    <main>
+      <form class="edit">
+        <header>
+          <input type="text" name="title" placeholder="Untitled" maxlength="32" readonly />
+        </header>
+        <textarea name="text" placeholder="Paste something here" readonly></textarea>
+        <nav class="actions"></nav>
+      </form>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>

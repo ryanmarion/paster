@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Paster</title>
+    <link rel="stylesheet" type="text/css" href="../static/paster.css" @href="/static/paster/paster.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Paster</h1>
+      <nav>
+        <a href="#" @href="paster/edit">New</a>
+      </nav>
+    </header>
+    <main>
+      <form class="edit" method="post" action="#" @action="/api/paster/new">
+        <header>
+          <input type="text" name="title" placeholder="Untitled" maxlength="32" />
+        </header>
+        <textarea name="text" placeholder="Paste something here" autofocus required></textarea>
+        <nav class="actions">
+          <input type="hidden" name="browser" value="true" />
+          <input type="submit" name="action" value="Post" />
+        </nav>
+      </form>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
