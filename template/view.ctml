@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Paster</title>
-    <link rel="stylesheet" type="text/css" href="../static/paster.css" @href="/static/plaster/plaster.css" />
+    <link rel="stylesheet" type="text/css" href="../static/paster.css" @href="/static/paster/paster.css" />
   </head>
   <body>
     <header>
